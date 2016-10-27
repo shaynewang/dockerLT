@@ -2,7 +2,7 @@ import time
 import random
 i = 0
 ALPHABET = '\nABCDEFGHJKLMNPQRSTUVWXYZ23456789        ^&*RW$^&*Q#^*%'
-while i <= 1000000:
+while i <= 1000:
     page = ""
     row = "\n"
     num = random.randint(0,200)
@@ -13,5 +13,5 @@ while i <= 1000000:
     print(page)
     print("DEBUG: page %d, lines: %d"%(i,page.count('\n')))
     i += 1
-    time.sleep(0.5)
+    time.sleep(3.5)
 exit()
